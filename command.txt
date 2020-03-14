@@ -1,0 +1,17 @@
+sequelize model:create --name Users --attributes name:string,email:string,password:string,role:string
+
+sequelize model:create --name Division --attributes name:string,bn_name:string
+
+sequelize model:create --name Districts --attributes division_id:integer,name:string,bn_name:string
+
+sequelize model:create --name Upazilas --attributes district_id:integer,name:string,bn_name:string
+
+sequelize model:create --name Unions --attributes upazilla_id:integer,name:string,bn_name:string
+
+sequelize model:create --name Tags --attributes name:string
+
+sequelize model:create --name Locations --attributes name:string,division_id:integer,district_id:integer,upazilla_id:integer,union_id:integer,address:string
+
+sequelize model:create --name Doctors --attributes name:string,designation:string,gender:string,tags:text,description:text,photo:string,note:string,rating:integer,user_rating:integer
+
+sequelize model:create --name DoctorLocation --attributes location_id:string,doctor_id:integer,description:text,contact:string
