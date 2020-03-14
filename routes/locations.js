@@ -26,7 +26,7 @@ router.put('/:id', async function (req, res, next) {
     }, {
         where: {id: req.params.id}
     });
-
+    
     res.send(result);
 });
 
