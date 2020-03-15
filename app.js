@@ -11,10 +11,6 @@ require('./startup/routes')(app);
 
 
 
-
-
-
-
 sequelize.authenticate().then(() => {
     winston.info(`Database connection successfully`);
     app.listen(port, () => winston.info(`Connected: http://localhost:${port}...`));
