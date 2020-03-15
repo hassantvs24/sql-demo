@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const {Doctor} = require('../startup/models');
+const auth = require('../middleware/auth');
 
 router.get('/', async function (req, res, next) {
     const result = await Doctor.findAll();
@@ -13,7 +14,7 @@ router.get('/:id', async function (req, res, next) {
 });
 
 
-router.post('/', async function (req, res, next) {
+router.post('/', auth, async function (req, res, next) {
     const result = await Doctor.create({
          name: req.body.name,
          designation: req.body.designation,
@@ -28,7 +29,7 @@ router.post('/', async function (req, res, next) {
 });
 
 
-router.put('/:id', async function (req, res, next) {
+router.put('/:id', auth, async function (req, res, next) {
     await Doctor.update({
         name: req.body.name,
          designation: req.body.designation,
@@ -46,7 +47,7 @@ router.put('/:id', async function (req, res, next) {
 });
 
 
-router.delete('/:id', async function (req, res, next) {
+router.delete('/:id', auth, async function (req, res, next) {
     await Doctor.destroy({
         where: {id: req.params.id}
     });

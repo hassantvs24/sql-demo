@@ -7,6 +7,7 @@ const sequelize = require('./startup/db')();
 
 require('./startup/logger')();//Error logging
 require('./startup/routes')(app);
+require('./startup/keyset')();
 
 
 

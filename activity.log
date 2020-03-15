@@ -154,3 +154,153 @@
 {"message":"Database connection successfully","level":"info"}
 {"message":"Connected: http://localhost:3000...","level":"info"}
 {"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"name":"SequelizeValidationError","errors":[{"message":"Must be a valid email address","type":"Validation error","path":"email","value":"admin2","origin":"FUNCTION","instance":{"id":null,"name":"Nazmul Hossain","email":"admin2","password":"$2b$10$QvmA50L4v/6w84xn101NxOE0XlUzHNiEFmCcGD.Dh1q.5TppgWJ.q","role":"Admin","updatedAt":"2020-03-15T10:02:43.343Z","createdAt":"2020-03-15T10:02:43.343Z"},"validatorKey":"isEmail","validatorName":"isEmail","validatorArgs":[{"msg":"Must be a valid email address","allow_display_name":false,"require_display_name":false,"allow_utf8_local_part":true,"require_tld":true}],"original":{"validatorName":"isEmail","validatorArgs":[{"msg":"Must be a valid email address","allow_display_name":false,"require_display_name":false,"allow_utf8_local_part":true,"require_tld":true}]}}],"level":"error","message":"Validation error: Must be a valid email addressValidation error: Must be a valid email address","stack":"SequelizeValidationError: Validation error: Must be a valid email address\n    at C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\instance-validator.js:74:15\nFrom previous event:\n    at InstanceValidator._validate (C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\instance-validator.js:72:8)\n    at C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\instance-validator.js:107:14\n    at processImmediate (internal/timers.js:439:21)\nFrom previous event:\n    at InstanceValidator._validateAndRunHooks (C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\instance-validator.js:106:8)\n    at InstanceValidator.validate (C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\instance-validator.js:90:38)\n    at model.validate (C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\model.js:4136:49)\n    at C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\model.js:3901:21\nFrom previous event:\n    at model.save (C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\model.js:3898:23)\n    at Function.create (C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\model.js:2226:8)\n    at C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\routes\\users.js:18:31"}
+{"name":"SequelizeValidationError","errors":[{"message":"Must be a valid email address","type":"Validation error","path":"email","value":"admin2","origin":"FUNCTION","instance":{"id":null,"name":"Nazmul Hossain","email":"admin2","password":"$2b$10$QvmA50L4v/6w84xn101NxOE0XlUzHNiEFmCcGD.Dh1q.5TppgWJ.q","role":"Admin","updatedAt":"2020-03-15T10:02:43.343Z","createdAt":"2020-03-15T10:02:43.343Z"},"validatorKey":"isEmail","validatorName":"isEmail","validatorArgs":[{"msg":"Must be a valid email address","allow_display_name":false,"require_display_name":false,"allow_utf8_local_part":true,"require_tld":true}],"original":{"validatorName":"isEmail","validatorArgs":[{"msg":"Must be a valid email address","allow_display_name":false,"require_display_name":false,"allow_utf8_local_part":true,"require_tld":true}]}}],"level":"error","message":"Validation error: Must be a valid email addressValidation error: Must be a valid email address","stack":"SequelizeValidationError: Validation error: Must be a valid email address\n    at C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\instance-validator.js:74:15\nFrom previous event:\n    at InstanceValidator._validate (C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\instance-validator.js:72:8)\n    at C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\instance-validator.js:107:14\n    at processImmediate (internal/timers.js:439:21)\nFrom previous event:\n    at InstanceValidator._validateAndRunHooks (C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\instance-validator.js:106:8)\n    at InstanceValidator.validate (C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\instance-validator.js:90:38)\n    at model.validate (C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\model.js:4136:49)\n    at C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\model.js:3901:21\nFrom previous event:\n    at model.save (C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\model.js:3898:23)\n    at Function.create (C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\model.js:2226:8)\n    at C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\routes\\users.js:18:31"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"name":"SequelizeValidationError","errors":[{"message":"Must be a valid email address","type":"Validation error","path":"email","value":"admin2","origin":"FUNCTION","instance":{"id":null,"name":"Nazmul Hossain","email":"admin2","password":"$2b$10$6l1BTJRwYy05Mw33QHpa7uUiFH4xEbFZ3wA1a.EIxGiaM/.fP.nm6","role":"Admin","updatedAt":"2020-03-15T10:02:57.868Z","createdAt":"2020-03-15T10:02:57.868Z"},"validatorKey":"isEmail","validatorName":"isEmail","validatorArgs":[{"msg":"Must be a valid email address","allow_display_name":false,"require_display_name":false,"allow_utf8_local_part":true,"require_tld":true}],"original":{"validatorName":"isEmail","validatorArgs":[{"msg":"Must be a valid email address","allow_display_name":false,"require_display_name":false,"allow_utf8_local_part":true,"require_tld":true}]}}],"level":"error","message":"Validation error: Must be a valid email addressValidation error: Must be a valid email address","stack":"SequelizeValidationError: Validation error: Must be a valid email address\n    at C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\instance-validator.js:74:15\nFrom previous event:\n    at InstanceValidator._validate (C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\instance-validator.js:72:8)\n    at C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\instance-validator.js:107:14\n    at processImmediate (internal/timers.js:439:21)\nFrom previous event:\n    at InstanceValidator._validateAndRunHooks (C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\instance-validator.js:106:8)\n    at InstanceValidator.validate (C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\instance-validator.js:90:38)\n    at model.validate (C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\model.js:4136:49)\n    at C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\model.js:3901:21\nFrom previous event:\n    at model.save (C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\model.js:3898:23)\n    at Function.create (C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\model.js:2226:8)\n    at C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\routes\\users.js:18:31"}
+{"name":"SequelizeValidationError","errors":[{"message":"Must be a valid email address","type":"Validation error","path":"email","value":"admin2","origin":"FUNCTION","instance":{"id":null,"name":"Nazmul Hossain","email":"admin2","password":"$2b$10$6l1BTJRwYy05Mw33QHpa7uUiFH4xEbFZ3wA1a.EIxGiaM/.fP.nm6","role":"Admin","updatedAt":"2020-03-15T10:02:57.868Z","createdAt":"2020-03-15T10:02:57.868Z"},"validatorKey":"isEmail","validatorName":"isEmail","validatorArgs":[{"msg":"Must be a valid email address","allow_display_name":false,"require_display_name":false,"allow_utf8_local_part":true,"require_tld":true}],"original":{"validatorName":"isEmail","validatorArgs":[{"msg":"Must be a valid email address","allow_display_name":false,"require_display_name":false,"allow_utf8_local_part":true,"require_tld":true}]}}],"level":"error","message":"Validation error: Must be a valid email addressValidation error: Must be a valid email address","stack":"SequelizeValidationError: Validation error: Must be a valid email address\n    at C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\instance-validator.js:74:15\nFrom previous event:\n    at InstanceValidator._validate (C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\instance-validator.js:72:8)\n    at C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\instance-validator.js:107:14\n    at processImmediate (internal/timers.js:439:21)\nFrom previous event:\n    at InstanceValidator._validateAndRunHooks (C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\instance-validator.js:106:8)\n    at InstanceValidator.validate (C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\instance-validator.js:90:38)\n    at model.validate (C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\model.js:4136:49)\n    at C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\model.js:3901:21\nFrom previous event:\n    at model.save (C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\model.js:3898:23)\n    at Function.create (C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\model.js:2226:8)\n    at C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\routes\\users.js:18:31"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"name":"SequelizeValidationError","errors":[{"message":"Must be a valid email address","type":"Validation error","path":"email","value":"admin2","origin":"FUNCTION","instance":{"id":null,"name":"Nazmul Hossain","email":"admin2","password":"$2b$10$7JPTPzklODZ10VWXa0Uk.e82nFbVL9.5vu4D39hPzP9bqEefiZfee","role":"Admin","updatedAt":"2020-03-15T10:04:25.476Z","createdAt":"2020-03-15T10:04:25.476Z"},"validatorKey":"isEmail","validatorName":"isEmail","validatorArgs":[{"msg":"Must be a valid email address","allow_display_name":false,"require_display_name":false,"allow_utf8_local_part":true,"require_tld":true}],"original":{"validatorName":"isEmail","validatorArgs":[{"msg":"Must be a valid email address","allow_display_name":false,"require_display_name":false,"allow_utf8_local_part":true,"require_tld":true}]}}],"level":"error","message":"Validation error: Must be a valid email addressValidation error: Must be a valid email address","stack":"SequelizeValidationError: Validation error: Must be a valid email address\n    at C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\instance-validator.js:74:15\nFrom previous event:\n    at InstanceValidator._validate (C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\instance-validator.js:72:8)\n    at C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\instance-validator.js:107:14\n    at processImmediate (internal/timers.js:439:21)\nFrom previous event:\n    at InstanceValidator._validateAndRunHooks (C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\instance-validator.js:106:8)\n    at InstanceValidator.validate (C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\instance-validator.js:90:38)\n    at model.validate (C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\model.js:4136:49)\n    at C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\model.js:3901:21\nFrom previous event:\n    at model.save (C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\model.js:3898:23)\n    at Function.create (C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\model.js:2226:8)\n    at C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\routes\\users.js:18:31"}
+{"name":"SequelizeValidationError","errors":[{"message":"Must be a valid email address","type":"Validation error","path":"email","value":"admin2","origin":"FUNCTION","instance":{"id":null,"name":"Nazmul Hossain","email":"admin2","password":"$2b$10$7JPTPzklODZ10VWXa0Uk.e82nFbVL9.5vu4D39hPzP9bqEefiZfee","role":"Admin","updatedAt":"2020-03-15T10:04:25.476Z","createdAt":"2020-03-15T10:04:25.476Z"},"validatorKey":"isEmail","validatorName":"isEmail","validatorArgs":[{"msg":"Must be a valid email address","allow_display_name":false,"require_display_name":false,"allow_utf8_local_part":true,"require_tld":true}],"original":{"validatorName":"isEmail","validatorArgs":[{"msg":"Must be a valid email address","allow_display_name":false,"require_display_name":false,"allow_utf8_local_part":true,"require_tld":true}]}}],"level":"error","message":"Validation error: Must be a valid email addressValidation error: Must be a valid email address","stack":"SequelizeValidationError: Validation error: Must be a valid email address\n    at C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\instance-validator.js:74:15\nFrom previous event:\n    at InstanceValidator._validate (C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\instance-validator.js:72:8)\n    at C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\instance-validator.js:107:14\n    at processImmediate (internal/timers.js:439:21)\nFrom previous event:\n    at InstanceValidator._validateAndRunHooks (C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\instance-validator.js:106:8)\n    at InstanceValidator.validate (C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\instance-validator.js:90:38)\n    at model.validate (C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\model.js:4136:49)\n    at C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\model.js:3901:21\nFrom previous event:\n    at model.save (C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\model.js:3898:23)\n    at Function.create (C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\node_modules\\sequelize\\lib\\model.js:2226:8)\n    at C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\routes\\users.js:18:31"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"level":"error","message":"user.generateAuthToken is not a functionuser.generateAuthToken is not a function","stack":"TypeError: user.generateAuthToken is not a function\n    at C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\routes\\auth.js:20:24"}
+{"level":"error","message":"user.generateAuthToken is not a functionuser.generateAuthToken is not a function","stack":"TypeError: user.generateAuthToken is not a function\n    at C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\routes\\auth.js:20:24"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"level":"error","message":"user.generateAuthToken is not a functionuser.generateAuthToken is not a function","stack":"TypeError: user.generateAuthToken is not a function\n    at C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\routes\\auth.js:20:24"}
+{"level":"error","message":"user.generateAuthToken is not a functionuser.generateAuthToken is not a function","stack":"TypeError: user.generateAuthToken is not a function\n    at C:\\Users\\Nazmul Hossain\\Desktop\\sql-demo\\routes\\auth.js:20:24"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Database connection successfully","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
+{"message":"Connected: http://localhost:3000...","level":"info"}
