@@ -10,6 +10,8 @@ sequelize model:create --name Unions --attributes upazilla_id:integer,name:strin
 
 sequelize model:create --name Tags --attributes name:string
 
+sequelize model:create --name DoctorTags --attributes tag_id:integer,doctor_id:integer
+
 sequelize model:create --name Locations --attributes name:string,division_id:integer,district_id:integer,upazilla_id:integer,union_id:integer,address:string
 
 sequelize model:create --name Doctors --attributes name:string,designation:string,gender:string,tags:text,description:text,photo:string,note:string,rating:integer,user_rating:integer

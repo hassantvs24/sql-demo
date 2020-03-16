@@ -1,6 +1,8 @@
+const Joi = require('joi');
 const express = require('express');
 const router = express.Router();
-const {Doctor} = require('../startup/models');
+const models = require('../models');
+const Doctor = models.Doctors;
 const auth = require('../middleware/auth');
 
 router.get('/', async function (req, res, next) {
@@ -15,11 +17,16 @@ router.get('/:id', async function (req, res, next) {
 
 
 router.post('/', auth, async function (req, res, next) {
+
+    const {error} = validate(req.body)
+    if(error) {
+        return res.status(400).send(error.details[0].message);
+    }
+
     const result = await Doctor.create({
          name: req.body.name,
          designation: req.body.designation,
          gender: req.body.gender,
-         tags: JSON.stringify(req.body.tags),
          description: req.body.description,
          note: req.body.note,
          rating: req.body.rating,
@@ -30,11 +37,16 @@ router.post('/', auth, async function (req, res, next) {
 
 
 router.put('/:id', auth, async function (req, res, next) {
+
+    const {error} = validate(req.body)
+    if(error) {
+        return res.status(400).send(error.details[0].message);
+    }
+
     await Doctor.update({
-        name: req.body.name,
+         name: req.body.name,
          designation: req.body.designation,
          gender: req.body.gender,
-         tags: JSON.stringify(req.body.tags),
          description: req.body.description,
          note: req.body.note,
          rating: req.body.rating,
@@ -53,6 +65,15 @@ router.delete('/:id', auth, async function (req, res, next) {
     });
     res.send('Successfully Delete');
 });
+
+
+function validate(data){
+    const schema = {
+        name: Joi.string().min(4).required()
+    };
+
+    return Joi.validate(data, schema);
+}
 
 
 module.exports = router;

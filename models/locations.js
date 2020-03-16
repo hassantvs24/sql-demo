@@ -9,7 +9,22 @@ module.exports = (sequelize, DataTypes) => {
     address: DataTypes.STRING
   }, {});
   Locations.associate = function(models) {
-    // associations can be defined here
+    Locations.belongsTo(models.Division, {
+      foreignKey: 'division_id',
+      as: 'division'
+    });
+    Locations.belongsTo(models.Districts, {
+      foreignKey: 'district_id',
+      as: 'district'
+    });
+    Locations.belongsTo(models.Upazilas, {
+      foreignKey: 'upazilla_id',
+      as: 'upazilla'
+    });
+    Locations.belongsTo(models.Unions, {
+      foreignKey: 'union_id',
+      as: 'union'
+    });
   };
   return Locations;
 };

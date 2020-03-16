@@ -3,7 +3,8 @@ var jwt = require('jsonwebtoken');
 const bcrypt = require('bcrypt');
 const express = require('express');
 const router = express.Router();
-const {User} = require('../startup/models');
+const models = require('../models');
+const User = models.Users;
 const key = process.env.PRIVATE_KEY;
 
 router.post('/', async function (req, res) {

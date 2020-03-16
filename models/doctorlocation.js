@@ -7,7 +7,14 @@ module.exports = (sequelize, DataTypes) => {
     contact: DataTypes.STRING
   }, {});
   DoctorLocation.associate = function(models) {
-    // associations can be defined here
+    DoctorLocation.belongsTo(models.Doctors, {
+        foreignKey: 'doctor_id',
+        as: 'doctor'
+      });
+    DoctorLocation.belongsTo(models.Locations, {
+      foreignKey: 'location_id',
+      as: 'location'
+    });
   };
   return DoctorLocation;
-};
+}; 

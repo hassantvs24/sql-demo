@@ -1,6 +1,10 @@
 const express = require('express');
 const router = express.Router();
-const {Division, District, Upazilla, Union} = require('../startup/models');
+const models = require('../models');
+const Division = models.Division;
+const District = models.Districts;
+const Upazilla = models.Upazilas;
+const Union = models.Unions;
 
 
 router.get('/', async function (req, res, next) {

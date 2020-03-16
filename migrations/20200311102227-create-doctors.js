@@ -17,9 +17,6 @@ module.exports = {
       gender: {
         type: Sequelize.STRING
       },
-      tags: {
-        type: Sequelize.TEXT
-      },
       description: {
         type: Sequelize.TEXT
       },
