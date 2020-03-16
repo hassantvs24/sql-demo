@@ -1,0 +1,4 @@
+# sql-demo
+This is JavaScript based (Node.js) doctor finder API. Search doctor in any nearby area with many filtaring option like area, doctor specialty and many more.
+I am using several technologies in this project. Using Express.js Framework based on Node.js. Also, I am using JWT package for token-based user authentication and authorization system. I am using relational database system commonly known as SQL. Because it is cost effective technology and easy to implementation. But I am using Sequelize. Sequelize is a promise-based Node.js ORM for Postgres, MySQL, MariaDB, SQLite and Microsoft SQL Server. 
+This project helps to understand how implementation Sequelize ORM and build project structure like Laravel Framework (PHP Based Framework). Because I am Laravel developer also. That’s why I am focusing on it. I think It is help to new developer who want to learn Node.js, who already know Laravel framework.
